@@ -5,6 +5,11 @@ body, ul {
 ul { list-style: none; }
 a { text-decoration: none; color: inherit; }
 
+:where(h1) {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
+
 header, footer {
     background: #333;
     color: #fff;
